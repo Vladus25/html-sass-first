@@ -1,0 +1,26 @@
+// Colore bindato
+$primary-color: red;
+$secondary-color: orange;
+
+body {
+  background-color: purple;
+
+  header {
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+      display: flex;
+      color: green;
+      justify-content: center;
+    }
+
+    .Colore1 {
+      color: $primary-color;
+    }
+
+    .Colore2 {
+      color: $secondary-color;
+    }
+  }
+}

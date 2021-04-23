@@ -1,1 +1,18 @@
-
+body {
+  background-color: purple;
+}
+body header {
+  display: flex;
+  flex-direction: column;
+}
+body header h2 {
+  display: flex;
+  color: green;
+  justify-content: center;
+}
+body header .Colore1 {
+  color: red;
+}
+body header .Colore2 {
+  color: orange;
+}
